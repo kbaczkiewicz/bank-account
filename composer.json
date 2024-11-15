@@ -1,0 +1,19 @@
+{
+    "name": "kamilbaczkiewicz/bankaccount",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BankAccount\\": "src/",
+            "BankAccount\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kamil Baczkiewicz",
+            "email": "kamil.baczkiewicz@modivo.com"
+        }
+    ],
+    "require": {}
+}
